@@ -1,0 +1,30 @@
+keytool -genkey -alias javaexpert -storetype JKS -keyalg RSA -keysize 2048 -validity 365 -keystore javaexpert.jks
+
+// Next steps
+
+C:\Users\Lenovo>keytool -genkey -alias javaexpert -storetype JKS -keyalg RSA -keysize 2048 -validity 365 -keystore sslandtls.jks
+Enter keystore password:
+Re-enter new password:
+What is your first and last name?
+  [Unknown]:  avanish kumar
+What is the name of your organizational unit?
+  [Unknown]:  java
+What is the name of your organization?
+  [Unknown]:  java
+What is the name of your City or Locality?
+  [Unknown]:  noida
+What is the name of your State or Province?
+  [Unknown]:  noida
+What is the two-letter country code for this unit?
+  [Unknown]:  IN
+Is CN=avanish kumar, OU=java, O=java, L=noida, ST=noida, C=IN correct?
+  [no]:  yes
+
+Enter key password for <javaexpert>
+        (RETURN if same as keystore password):
+Re-enter new password:
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore sslandtls.jks -destkeystore sslandtls.jks -deststoretype pkcs12".
+
+C:\Users\Lenovo>

@@ -1,0 +1,6 @@
+server:
+  ssl:
+    key-alias: manalAlias
+    key-store: classpath:testingcertificat.jks
+    key-store-type: JKS
+    key-password: changeit
