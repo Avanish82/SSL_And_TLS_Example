@@ -1,0 +1,24 @@
+#server:
+#  ssl:
+#    key-alias: manalAlias
+#    key-store: classpath:testingcertificat.jks
+#    key-store-type: JKS
+#    key-password: changeit
+#  port: 8443 
+
+
+
+#working certificates
+#server:
+#   ssl:
+#     key-store: classpath:mydemocertificate.p12
+#     key-store-password: mydemo
+#     key-alias: mydemocertificate
+#   port: 8443
+
+server:
+   ssl:
+     key-store: classpath:mydemocertificates.p12
+     key-store-password: mydemo
+     key-alias: mydemocertificates
+   port: 8443
